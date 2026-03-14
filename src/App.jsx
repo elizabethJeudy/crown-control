@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 
-const status = ['Incoming', 'In Progress', 'Ready for Delivery', 'Completed']
+const status = ['Incoming', 'Intake','In Progress', 'QA Review', 'Completed']
 const priority = ['Normal', 'Rush', 'Next Day']
 
 // sample cases 
@@ -67,3 +67,5 @@ const cases = [
     notes: 'PFM bridge with non precious metal and porcelain butt margins.'
   }
 ]
+
+  
